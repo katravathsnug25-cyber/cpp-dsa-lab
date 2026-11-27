@@ -19,3 +19,4 @@ g++ -std=c++17 -Wall -Wextra <folder/file.cpp> -o app && ./app
 | 07-maths-number-theory | legendary_maths.cpp | O(n log log n) | O(n) |
 | 08-logical-mystery | logic_and_mystery.cpp | O(n) | O(1) |
 | 09-dynamic-programming | dp_classics.cpp | O(n * W) | O(W) |
+| 10-advanced-graphs-dsu | dijkstra_and_dsu.cpp | O(E log V) | O(V + E) |
