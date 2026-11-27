@@ -24,5 +24,10 @@ build_and_run "27-string-hashing-suffix-array/rolling_hash_and_sa.cpp" 0
 build_and_run "28-parallel-mapreduce-work-stealing/parallel_mapreduce.cpp" 1
 build_and_run "29-raft-leader-election-sim/raft_election.cpp" 0
 build_and_run "30-rag-hybrid-ranker-pipeline/rag_pipeline.cpp" 0
+build_and_run "31-lru-lfu-cache-engine/lfu_cache.cpp" 0
+build_and_run "32-skip-list-probabilistic-map/skip_list.cpp" 0
+build_and_run "33-astar-pathfinding-grid/astar_grid.cpp" 0
+build_and_run "34-circuit-breaker-resilience/circuit_breaker.cpp" 0
+build_and_run "35-sliding-window-rate-limiter/sliding_window_limiter.cpp" 0
 
-echo "[ALL PASS] Modules 21-30 verified cleanly."
+echo "[ALL PASS] Modules 21-35 verified cleanly."

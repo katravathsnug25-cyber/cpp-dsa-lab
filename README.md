@@ -1,12 +1,12 @@
 # cpp-dsa-lab
 
-Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, Concurrency, Distributed Systems, AI/Agent Primitives, Network Flow, Geometry, Probabilistic Structures, Lock-Free Buffers, WAL Storage, Order Statistic Trees, Suffix Arrays, MapReduce, Raft Consensus, and RAG Pipelines with built-in edge-case assertions.
+Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, Concurrency, Distributed Systems, AI/Agent Primitives, Network Flow, Geometry, Probabilistic Structures, Lock-Free Buffers, WAL Storage, Order Statistic Trees, Suffix Arrays, MapReduce, Raft Consensus, RAG Pipelines, LFU Cache, Skip Lists, A* Pathfinding, Circuit Breakers, and Rate Limiters with built-in edge-case assertions.
 
 ## Compile & Run (C++17)
 
 g++ -std=c++17 -Wall -Wextra -Werror <folder/file.cpp> -o app && ./app
 
-# Or run modules 21-30 test suite:
+# Or run modules 21-35 test suite:
 ./run_all.sh
 
 ## Modules & Complexity
@@ -43,3 +43,8 @@ g++ -std=c++17 -Wall -Wextra -Werror <folder/file.cpp> -o app && ./app
 | 28-parallel-mapreduce-work-stealing | parallel_mapreduce.cpp | O(N / T + M log M) | O(M + T) |
 | 29-raft-leader-election-sim | raft_election.cpp | O(1) | O(1) |
 | 30-rag-hybrid-ranker-pipeline | rag_pipeline.cpp | O(M * D + K log M) | O(M * D + C) |
+| 31-lru-lfu-cache-engine | lfu_cache.cpp | O(1) | O(C) |
+| 32-skip-list-probabilistic-map | skip_list.cpp | O(log N) avg | O(N) |
+| 33-astar-pathfinding-grid | astar_grid.cpp | O(R * C log(R * C)) | O(R * C) |
+| 34-circuit-breaker-resilience | circuit_breaker.cpp | O(1) | O(1) |
+| 35-sliding-window-rate-limiter | sliding_window_limiter.cpp | O(1) amortized | O(R) |
