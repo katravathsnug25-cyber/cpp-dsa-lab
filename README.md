@@ -1,10 +1,10 @@
 # cpp-dsa-lab
 
-Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, and AI/Cloud Primitives with built-in edge-case assertions.
+Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, Concurrency, Distributed Systems, and AI/Agent Primitives with built-in edge-case assertions.
 
 ## Compile & Run (C++17)
 
-g++ -std=c++17 -Wall -Wextra <folder/file.cpp> -o app && ./app
+g++ -std=c++17 -Wall -Wextra -Werror <folder/file.cpp> -o app && ./app
 
 ## Modules & Complexity
 
@@ -26,3 +26,7 @@ g++ -std=c++17 -Wall -Wextra <folder/file.cpp> -o app && ./app
 | 14-matrix-expo-combinatorics | matrix_expo.cpp | O(k^3 log N) | O(k^2) |
 | 15-game-theory-bitmask | nim_and_bitmask_dp.cpp | O(N^2 * 2^N) | O(N * 2^N) |
 | 16-ai-cloud-systems | agent_cloud_primitives.cpp | O(1) / O(N log K) | O(C + K) |
+| 17-concurrency-thread-pool | thread_pool.cpp | O(1) enqueue | O(T + W) |
+| 18-distributed-consensus-hashing | consistent_hashing.cpp | O(V log(N * V)) | O(N * V) |
+| 19-ai-memory-vector-search | vector_memory.cpp | O(M * D + K log M) | O(M * D) |
+| 20-agent-orchestrator-fsm | agent_fsm.cpp | O(1) | O(1) |
