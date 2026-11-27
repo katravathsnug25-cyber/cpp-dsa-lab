@@ -1,6 +1,6 @@
 # cpp-dsa-lab
 
-Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, and Game Theory implementations with built-in edge-case assertions.
+Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, and AI/Cloud Primitives with built-in edge-case assertions.
 
 ## Compile & Run (C++17)
 
@@ -25,3 +25,4 @@ g++ -std=c++17 -Wall -Wextra <folder/file.cpp> -o app && ./app
 | 13-backtracking-branch-bound | n_queens.cpp | O(N!) pruned | O(N) |
 | 14-matrix-expo-combinatorics | matrix_expo.cpp | O(k^3 log N) | O(k^2) |
 | 15-game-theory-bitmask | nim_and_bitmask_dp.cpp | O(N^2 * 2^N) | O(N * 2^N) |
+| 16-ai-cloud-systems | agent_cloud_primitives.cpp | O(1) / O(N log K) | O(C + K) |
