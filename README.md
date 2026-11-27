@@ -1,10 +1,13 @@
 # cpp-dsa-lab
 
-Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, Concurrency, Distributed Systems, and AI/Agent Primitives with built-in edge-case assertions.
+Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Programming, Backtracking, Matrix Exponentiation, Game Theory, Concurrency, Distributed Systems, AI/Agent Primitives, Network Flow, Geometry, Probabilistic Structures, Lock-Free Buffers, and WAL Storage with built-in edge-case assertions.
 
 ## Compile & Run (C++17)
 
 g++ -std=c++17 -Wall -Wextra -Werror <folder/file.cpp> -o app && ./app
+
+# Or run modules 21-25 test suite:
+./run_all.sh
 
 ## Modules & Complexity
 
@@ -30,3 +33,8 @@ g++ -std=c++17 -Wall -Wextra -Werror <folder/file.cpp> -o app && ./app
 | 18-distributed-consensus-hashing | consistent_hashing.cpp | O(V log(N * V)) | O(N * V) |
 | 19-ai-memory-vector-search | vector_memory.cpp | O(M * D + K log M) | O(M * D) |
 | 20-agent-orchestrator-fsm | agent_fsm.cpp | O(1) | O(1) |
+| 21-network-flow-matching | max_flow.cpp | O(V * E^2) | O(V + E) |
+| 22-computational-geometry | convex_hull.cpp | O(N log N) | O(N) |
+| 23-probabilistic-data-structures | bloom_filter.cpp | O(K) | O(M) bits |
+| 24-lock-free-ring-buffer | spsc_ring_buffer.cpp | O(1) | O(N) |
+| 25-kv-storage-wal | wal_kv_store.cpp | O(1) / O(L) | O(K + L) |
