@@ -1,0 +1,11 @@
+*.out
+*.exe
+binary_search
+two_sum
+singly_linked_list
+valid_parentheses
+bfs_traversal
+merge_sort
+.idea/
+cmake-build-*/
+.DS_Store
