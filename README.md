@@ -6,7 +6,7 @@ Structured, clean C++17 Data Structures, Algorithms, Number Theory, Dynamic Prog
 
 g++ -std=c++17 -Wall -Wextra -Werror <folder/file.cpp> -o app && ./app
 
-# Or run modules 21-35 test suite:
+# Or run all 35 modules test suite:
 ./run_all.sh
 
 ## Modules & Complexity
